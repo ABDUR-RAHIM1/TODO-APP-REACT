@@ -1,0 +1,8 @@
+
+.todoItems{
+    font-weight: bold;
+     text-transform: uppercase;
+}
+.active{
+    color:  crimson;
+}

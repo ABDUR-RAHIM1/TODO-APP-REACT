@@ -1,0 +1,21 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    overflow-x: auto;
+    background: linear-gradient(to right, #ffff00a1 , #ff4500a8);
+}
+.home form {
+    width: 60%;
+    margin: 50px auto;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: red blue #6bcf48 crimson;
+}
+
+@media screen and (max-width: 768px) {
+    .home form {
+        width: 90%;
+    }
+    
+}

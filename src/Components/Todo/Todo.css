@@ -1,0 +1,43 @@
+.todo {
+    width: 100%;
+    pad: 20px;
+    margin-top: 3rem;
+    border-radius: 4px;
+    padding: 20px;
+    color: #2c3936;
+    background: linear-gradient(to right , #0000ff57 , #00800047);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 1px 8px #ffa5005c;
+}
+.todoItems{
+    width: 75%;
+}
+ 
+.todo h3{
+    font-weight: 400;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.todo p{
+    font-weight: 400;
+    color: white;
+    text-transform: capitalize;
+}
+.dateContainer{
+    font-size: 12px;
+    text-transform:lowercase;
+    color: rgb(46, 9, 251); 
+}
+.todoBtn{
+    display: flex;
+    align-items: safe;
+    justify-content: center;
+    flex-direction: column;
+}
+.todoBtn button{
+    margin: 10px;
+}
+
+

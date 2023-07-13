@@ -1,0 +1,11 @@
+.todos{
+    width: 80%;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 768px) {
+    .todos {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
